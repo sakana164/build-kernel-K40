@@ -79,7 +79,7 @@ jobs:
         cd kernel-source
             # git apply AnyKernel3/patch/
             bash AnyKernel3/patch/1.sh
-            curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s main
+            curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
             echo "UPLOADNAME=-KernelSU" >> $GITHUB_ENV
 
     - name: Build kernel
