@@ -21,7 +21,7 @@ on:
         default: 'https://raw.githubusercontent.com/ZyCromerZ/Clang/main/Clang-main-link.txt'
       PERSONAL_TOKEN:
         description: 'Personal access token'
-        required: false
+        required: true
         default: ''
       USE_KERNELSU:
         description: 'Use KernelSU'
