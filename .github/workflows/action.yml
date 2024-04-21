@@ -59,7 +59,7 @@ jobs:
     - name: Checkout kernel
       uses: actions/checkout@v4
       with:
-        token: ${{env.PERSONAL_TOKEN}}
+      # token: ${{env.PERSONAL_TOKEN}}
         github-server-url: 'https://github.com'
         repository: ${{ env.KERNEL_SOURCE }}
         ref: ${{ env.KERNEL_SOURCE_BRANCH }}
