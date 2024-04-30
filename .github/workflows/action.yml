@@ -70,7 +70,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         #token: ${{env.PERSONAL_TOKEN}}
-        repository: sakana164/AnyKernel3
+        repository: sakana164/AnyKernel3_AnaN
         path: kernel-source/AnyKernel3
 
     - name: Setup KernelSU
